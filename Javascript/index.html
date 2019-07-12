@@ -1,0 +1,52 @@
+<html>
+ <head>
+      <title>Employee Managmenent System</title>
+      <script src="employee.js" type="text/javascript"> </script>
+ </head>
+
+<body>
+    <form name="emp" >
+
+        <table>
+            <tr>
+                <td>Employee Id </td>
+                <td><input type="text" id="empid" name="eid"/></td>
+            </tr>
+            <tr>
+                <td>Employee Name</td>
+                <td><input type="text" id="empname" name="ename"/></td>
+            </tr>
+           
+            <tr>
+                <td>Course</td>
+               <td> <input type="checkbox"  name="ecourse" value="Java"/>Java</td>
+                <td><input type="checkbox"  name="ecourse" value=".net"/>.net </td>
+            </tr>
+            <tr>
+                 <td></td>
+                 <td>  <input type="checkbox"  name="ecourse" value="Salesport"/>Salesport</td> 
+                 <td> <input type="checkbox"  name="ecourse" value="pega"/>pega</td> 
+
+             </tr>
+             <tr>
+                    
+                <td>Qualification</td>
+                <td><select>
+                    <option value="Select" id="equal">Select</option>
+                    <option value="BCA" id="equal">BCA</option>
+                    <option value="BE/Btech" id="equal">BE/Btech</option>
+                    <option value="MCA" id="equal">MCA</option>
+                </select></td>
+             </tr>
+             <td>Online</td>
+                <td>Yes<input type="radio" id="online" value="yes"/></td>
+                <td>No<input type="radio" id="online" value ="no"/></td>
+                <tr>
+                        <td><input type="button" value="Add Employee" onclick="addEmployee()"/></td> 
+                    </tr>
+        </table>
+    </form>
+</body>
+
+
+</html>
